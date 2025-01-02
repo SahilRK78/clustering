@@ -43,7 +43,7 @@ feature_ranges = {
 all_features = list(feature_ranges.keys()) + ['Country']
 
 # Load countries (as before)
-df = pd.read_csv("C:/Users/hnpat/Downloads/DS-Projects/Clustering/Global_Development_Mesaurement.csv")
+df = pd.read_csv("C:\Users\91776\Downloads\Global_Development_Mesaurement.csv")
 countries = sorted(df['Country'].unique())
 
 st.markdown(
