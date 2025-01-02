@@ -9,7 +9,7 @@ warnings.filterwarnings('ignore')
 # In[2]:
 
 
-with open("C:/Users/hnpat/Downloads/label.pkl", 'rb') as file:
+with open("label.pkl", 'rb') as file:
     label = pickle.load(file)
 with open("C:/Users/hnpat/Downloads/model.pkl", 'rb') as file:
     model = pickle.load(file)
