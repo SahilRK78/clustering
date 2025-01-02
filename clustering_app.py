@@ -13,7 +13,7 @@ with open("label.pkl", 'rb') as file:
     label = pickle.load(file)
 with open("model.pkl", 'rb') as file:
     model = pickle.load(file)
-with open("C:/Users/hnpat/Downloads/scaler.pkl", 'rb') as file:
+with open("scaler.pkl", 'rb') as file:
     scaler = pickle.load(file)
     
 st.title("WORLD DEVELOPMENT MEASUREMENT PREDICTION")
